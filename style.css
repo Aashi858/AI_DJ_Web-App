@@ -1,0 +1,55 @@
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin-top: 0%;
+    font-family: 'Pattaya', sans-serif;
+}
+.note{
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    color:lightpink;
+}
+.speed_disk{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    border-radius: 75px;
+}
+.div_speed{
+    float: left;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+.volume_disk{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 75px;
+}
+.div_volume{
+    float: right;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+#footer{
+    width: 100%;
+    text-align: center;
+    background-color: aqua;
+    position: fixed;
+    bottom: 0%;
+    line-height: 12px;
+}
+canvas{
+    border-style: inset;
+    border-width: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#pre{
+    height: 50px;
+    width: 50px;
+}
